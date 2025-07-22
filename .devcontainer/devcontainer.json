@@ -1,0 +1,16 @@
+{
+  "name": "Java Development Container",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "settings": {
+    "java.home": "/usr/local/openjdk-11"
+  },
+  "extensions": [
+    "redhat.java",
+    "vscjava.vscode-java-pack",
+    "vscjava.vscode-maven"
+  ],
+  "postCreateCommand": "mvn install",
+  "remoteUser": "vscode"
+}

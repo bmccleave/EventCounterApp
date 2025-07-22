@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event Counter Dashboard"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:paddingBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewHourlyCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Events in the last hour: 0"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/textViewDailyCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Events in the last day: 0"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/textViewWeeklyCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Events in the last week: 0"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/textViewMonthlyCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Events in the last month: 0"
+        android:textSize="18sp"/>
+
+</LinearLayout>

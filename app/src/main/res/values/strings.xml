@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Event Counter App</string>
+    <string name="button_increment">Increment Event</string>
+    <string name="dashboard_title">Event Dashboard</string>
+    <string name="events_per_hour">Events per Hour</string>
+    <string name="events_per_day">Events per Day</string>
+    <string name="events_per_week">Events per Week</string>
+    <string name="events_per_month">Events per Month</string>
+</resources>
